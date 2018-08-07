@@ -6,7 +6,11 @@
         ['OS=="linux" or OS=="android" or OS=="freebsd"', {
           'sources': [
             'src/BluetoothHciSocket.cpp'
-          ]
+          ],
+          {
+                'cflags': [ '-fPIC' ]
+              , 'ldflags': [ '-fPIC' ]
+          }
         }]
       ],
       "include_dirs" : [
