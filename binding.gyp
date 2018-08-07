@@ -9,7 +9,12 @@
           ]
         }],['OS=="android"', {
               'cflags': [ '-fPIC' ]
-            , 'ldflags': [ '-fPIC' ]
+            , 'ldflags': [ '-fPIC' ],
+            {
+              'sources': [
+                'src/BluetoothHciSocket.cpp'
+              ]
+            }
         }]
       ],
       "include_dirs" : [
