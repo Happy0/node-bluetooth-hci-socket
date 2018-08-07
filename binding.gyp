@@ -7,10 +7,8 @@
           'sources': [
             'src/BluetoothHciSocket.cpp'
           ],
-          {
-                'cflags': [ '-fPIC' ]
-              , 'ldflags': [ '-fPIC' ]
-          }
+          'cflags': [ '-fPIC' ],
+          'ldflags': [ '-fPIC' ]
         }]
       ],
       "include_dirs" : [
