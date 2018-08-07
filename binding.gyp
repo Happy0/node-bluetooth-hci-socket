@@ -7,11 +7,11 @@
           'sources': [
             'src/BluetoothHciSocket.cpp'
           ]
-        }, [' OS=="android" ', {
+        }], [' OS=="android" ', {
               'cflags': [ '-fPIC' ]
             , 'ldflags': [ '-fPIC' ]
         }
-        ]]
+        ]
       ],
       "include_dirs" : [
             "<!(node -e \"require('nan')\")"
