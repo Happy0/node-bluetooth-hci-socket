@@ -38,7 +38,7 @@
   },
   "scripts": {
       "preinstall": "npm install node-pre-gyp",
-      "install": "node-pre-gyp install --fallback-to-build",
+      "install": "node-pre-gyp install --fallback-to-build --verbose",
       "test": "jshint lib/*.js"
   },
   "binary": {
